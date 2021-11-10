@@ -17,7 +17,7 @@ public class Main {
 				}
 			}
 		}
-		System.out.println("Oynanan Kolonlar:");
+		System.out.println("Kolonlar:");
 
 		for (int i = 0; i < kolonsayisi; i++) {
 			System.out.println("");
