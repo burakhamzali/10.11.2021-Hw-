@@ -10,8 +10,8 @@ public class Main {
 
 		for (int i = 0; i < kolonsayisi; i++) {
 			for (int j = 0; j < 6; j++) {
-				Random rnd = new Random();
-				int sayi = 1 + rnd.nextInt(49);
+				Random rand = new Random();
+				int sayi = 1 + rand.nextInt(49);
 				if (sayi != kolon[i][j]) { // Aynı kolondaki sayılar farklı olmalı.
 					kolon[i][j] = sayi;
 				}
